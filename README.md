@@ -1,11 +1,16 @@
 # Daniel Armstrong
 
-**Senior GIS professional — ~30 years from tactical GPS systems to enterprise geospatial platforms.**
-Esri stack (ArcGIS Pro, Online, Enterprise) · Python (ArcPy, ArcGIS API for Python, pandas/NumPy/GeoPandas) · PostgreSQL/PostGIS · Terraform · GitHub Actions
+**GIS Director & geospatial application engineer — 30 years, from the Army's first
+tactical GPS units to AWS-hosted ArcGIS Enterprise.**
+Esri stack (Pro · Online · Enterprise · Experience Builder ADK) · Python (ArcPy, ArcGIS API
+for Python, pandas/NumPy) · PostgreSQL/PostGIS on RDS · Terraform · GitHub Actions
 
-I build geospatial systems that survive contact with production: pipelines that refuse to
-load bad data, toolboxes with test suites, databases whose design decisions are written
-down, and scheduled jobs that fail loudly instead of truncating quietly.
+I run the GIS program for a multidisciplinary civil engineering firm and still write the
+code myself: custom Experience Builder widgets, ArcGIS Pro toolboxes, Python data
+pipelines, and the AWS infrastructure they run on. I build geospatial systems that
+survive contact with production — pipelines that refuse to load bad data, toolboxes with
+test suites, databases whose design decisions are written down, and scheduled jobs that
+fail loudly instead of truncating quietly.
 
 ## What to look at
 
@@ -17,17 +22,35 @@ down, and scheduled jobs that fail loudly instead of truncating quietly.
 | **[postgis-enterprise-patterns](https://github.com/USERNAME/postgis-enterprise-patterns)** | Enterprise spatial database architecture as running code: migrations verified against real PostGIS in CI, behavioral smoke tests, a spatial-index benchmark with real numbers (64× on radius queries at 1M points), four ADRs, and a Terraform RDS module. |
 | **[hydro-network-qc](https://github.com/USERNAME/hydro-network-qc)** | Sanitized extraction of a production tool from an ICM QC suite I built for municipal hydraulic-modeling programs (12 toolboxes, ~26k lines of client work): sewer network topology validation — orphaned/terminal/missing nodes, self-loops — before the InfoWorks ICM model build. |
 
-A thread runs through all four: **the Esri-facing layer stays thin, the logic underneath is
-tested**, and every repo's README explains the architecture decisions, not just the usage.
+A thread runs through all five: **the Esri-facing layer stays thin, the logic underneath
+is tested**, and every repo's README explains the architecture decisions, not just the
+usage.
+
+## Production work (client-owned, so described rather than linked)
+
+- **Municipal stormwater QA/QC platform** — custom Experience Builder (ADK) desktop
+  application giving crew chiefs real-time oversight of Field Maps crews across a
+  ~12,000-structure, 200-mile-pipeline stormwater program, with executive dashboards
+  via ArcGIS Insights
+- **Sanitary sewer smoke-testing suite** — field anomaly tracking app plus the ArcGIS
+  Pro tooling platform behind it: 12 promoted Python Toolboxes (~26k lines) for QC,
+  InfoWorks ICM model prep, reporting, and attachment management, governed by a
+  versioned tool registry and promotion process
+- **Town-wide public works framework** — tiered, role-based application architecture
+  tracking construction and asset inventory across every permission level
+- **Hydrology tooling** — LiDAR/DEM watershed delineation, flow accumulation, and
+  stormwater runoff modeling supporting engineering studies
+- **Cloud platform** — AWS-hosted ArcGIS Enterprise provisioned with Terraform,
+  deployed through GitHub Actions CI/CD, on PostgreSQL/PostGIS (Amazon RDS)
 
 ## Background
 
-- GIS analysis, data engineering, and Esri application development across municipal
-  water/sewer infrastructure, conservation, government, energy, and defense contexts
-- Built and operate a production ArcGIS Pro tooling platform for municipal smoke-test
-  and InfoWorks ICM modeling programs — 12 promoted Python Toolboxes under a versioned
-  tool registry and promotion process
-- ArcGIS Server administration back to the standalone-server era; enterprise geodatabase
-  design on PostgreSQL/PostGIS
-- U.S. Army — beta-tested tactical GPS tracking systems
-- Earlier career: petroleum landman — mapping workflows where a title error costs real money
+- GIS Director at a civil engineering firm serving Texas, Louisiana, and Virginia
+  (2018–present); before that, 14 years running my own mapping and land-management
+  consultancy for oil & gas and pipeline projects
+- Early-adopter ArcGIS Online user and long-term product feedback partner to Esri
+  engineering teams
+- Petroleum landman roots: courthouse title research, where a mapping error costs
+  real money
+- U.S. Army infantry sergeant — beta-tested the Cyberwarrior 2000 GPS combat asset
+  tracking system and the PLGR, the service's first tactical handheld GPS receivers
