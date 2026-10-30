@@ -2,9 +2,9 @@
 
 **GIS Director & geospatial application engineer — 30 years, from the Army's first
 tactical GPS units to cloud-hosted GIS platforms on AWS.**
-Esri stack (Pro · Online · Enterprise · Experience Builder Developer Edition) · Python
-(ArcPy, ArcGIS API for Python, pandas/NumPy) · PostgreSQL/PostGIS on RDS · Terraform ·
-GitHub Actions
+Esri stack (Pro · Online · Enterprise · Experience Builder Developer Edition · ArcGIS
+Maps SDK for JavaScript) · Python (ArcPy, ArcGIS API for Python, pandas/NumPy) ·
+PostgreSQL/PostGIS on RDS · Terraform · GitHub Actions
 
 I run the GIS program for a multidisciplinary civil engineering firm and still write the
 code myself: custom Experience Builder widgets, ArcGIS Pro toolboxes, Python data
