@@ -1,7 +1,7 @@
 # Daniel Armstrong
 
 **GIS Director & geospatial application engineer — 30 years, from the Army's first
-tactical GPS units to AWS-hosted ArcGIS Enterprise.**
+tactical GPS units to cloud-hosted GIS platforms on AWS.**
 Esri stack (Pro · Online · Enterprise · Experience Builder ADK) · Python (ArcPy, ArcGIS API
 for Python, pandas/NumPy) · PostgreSQL/PostGIS on RDS · Terraform · GitHub Actions
 
@@ -40,8 +40,9 @@ usage.
   tracking construction and asset inventory across every permission level
 - **Hydrology tooling** — LiDAR/DEM watershed delineation, flow accumulation, and
   stormwater runoff modeling supporting engineering studies
-- **Cloud platform** — AWS-hosted ArcGIS Enterprise provisioned with Terraform,
-  deployed through GitHub Actions CI/CD, on PostgreSQL/PostGIS (Amazon RDS)
+- **Cloud platform** — AWS infrastructure supporting enterprise GIS workloads:
+  provisioned with Terraform, deployed through GitHub Actions CI/CD, on
+  PostgreSQL/PostGIS (Amazon RDS)
 
 ## Background
 
