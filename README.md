@@ -17,11 +17,11 @@ fail loudly instead of truncating quietly.
 
 | Repo | What it shows |
 |---|---|
-| **[geo-etl-pipeline](https://github.com/USERNAME/geo-etl-pipeline)** | Config-driven Python ETL framework for spatial data: declarative QA gates with abort/warn/quarantine policies, transform registry, audit logging. 30+ tests, CI on 3.11–3.13, tagged releases. |
-| **[arcgis-qa-toolbox](https://github.com/USERNAME/arcgis-qa-toolbox)** | ArcGIS Pro Python Toolbox + geoprocessing service publish script, built on an arcpy-free core so the logic is fully unit-tested in CI — with an AST test that *enforces* the arcpy boundary. |
-| **[agol-ops-notebooks](https://github.com/USERNAME/agol-ops-notebooks)** | ArcGIS Online hosted notebooks for content audit, scheduled layer refresh (with a shrink guard that protects production from empty upstream extracts), and hosted-layer QA. Notebooks orchestrate; a tested package decides. |
-| **[postgis-enterprise-patterns](https://github.com/USERNAME/postgis-enterprise-patterns)** | Enterprise spatial database architecture as running code: migrations verified against real PostGIS in CI, behavioral smoke tests, a spatial-index benchmark with real numbers (64× on radius queries at 1M points), four ADRs, and a Terraform RDS module. |
-| **[hydro-network-qc](https://github.com/USERNAME/hydro-network-qc)** | Sanitized extraction of a production tool from an ICM QC suite I built for municipal hydraulic-modeling programs (12 toolboxes, ~26k lines of client work): sewer network topology validation — orphaned/terminal/missing nodes, self-loops — before the InfoWorks ICM model build. |
+| **[geo-etl-pipeline](https://github.com/iDan-Armstrong/geo-etl-pipeline)** | Config-driven Python ETL framework for spatial data: declarative QA gates with abort/warn/quarantine policies, transform registry, audit logging. 30+ tests, CI on 3.11–3.13, tagged releases. |
+| **[arcgis-qa-toolbox](https://github.com/iDan-Armstrong/arcgis-qa-toolbox)** | ArcGIS Pro Python Toolbox + geoprocessing service publish script, built on an arcpy-free core so the logic is fully unit-tested in CI — with an AST test that *enforces* the arcpy boundary. |
+| **[agol-ops-notebooks](https://github.com/iDan-Armstrong/agol-ops-notebooks)** | ArcGIS Online hosted notebooks for content audit, scheduled layer refresh (with a shrink guard that protects production from empty upstream extracts), and hosted-layer QA. Notebooks orchestrate; a tested package decides. |
+| **[postgis-enterprise-patterns](https://github.com/iDan-Armstrong/postgis-enterprise-patterns)** | Enterprise spatial database architecture as running code: migrations verified against real PostGIS in CI, behavioral smoke tests, a spatial-index benchmark with real numbers (64× on radius queries at 1M points), four ADRs, and a Terraform RDS module. |
+| **[hydro-network-qc](https://github.com/iDan-Armstrong/hydro-network-qc)** | Sanitized extraction of a production tool from an ICM QC suite I built for municipal hydraulic-modeling programs (12 toolboxes, ~26k lines of client work): sewer network topology validation — orphaned/terminal/missing nodes, self-loops — before the InfoWorks ICM model build. |
 
 A thread runs through all five: **the Esri-facing layer stays thin, the logic underneath
 is tested**, and every repo's README explains the architecture decisions, not just the
