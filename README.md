@@ -2,8 +2,9 @@
 
 **GIS Director & geospatial application engineer — 30 years, from the Army's first
 tactical GPS units to cloud-hosted GIS platforms on AWS.**
-Esri stack (Pro · Online · Enterprise · Experience Builder ADK) · Python (ArcPy, ArcGIS API
-for Python, pandas/NumPy) · PostgreSQL/PostGIS on RDS · Terraform · GitHub Actions
+Esri stack (Pro · Online · Enterprise · Experience Builder Developer Edition) · Python
+(ArcPy, ArcGIS API for Python, pandas/NumPy) · PostgreSQL/PostGIS on RDS · Terraform ·
+GitHub Actions
 
 I run the GIS program for a multidisciplinary civil engineering firm and still write the
 code myself: custom Experience Builder widgets, ArcGIS Pro toolboxes, Python data
@@ -28,8 +29,8 @@ usage.
 
 ## Production work (client-owned, so described rather than linked)
 
-- **Municipal stormwater QA/QC platform** — custom Experience Builder (ADK) desktop
-  application giving crew chiefs real-time oversight of Field Maps crews across a
+- **Municipal stormwater QA/QC platform** — custom Experience Builder (Developer
+  Edition) desktop application giving crew chiefs real-time oversight of Field Maps crews across a
   ~12,000-structure, 200-mile-pipeline stormwater program, with executive dashboards
   via ArcGIS Insights
 - **Sanitary sewer smoke-testing suite** — field anomaly tracking app plus the ArcGIS
