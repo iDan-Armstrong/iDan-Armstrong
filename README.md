@@ -13,6 +13,10 @@ survive contact with production — pipelines that refuse to load bad data, tool
 test suites, databases whose design decisions are written down, and scheduled jobs that
 fail loudly instead of truncating quietly.
 
+**Live apps: [idan-armstrong.github.io/portfolio-apps](https://idan-armstrong.github.io/portfolio-apps/)** —
+built with the ArcGIS Maps SDK for JavaScript on ArcGIS Location Platform, tested and
+deployed by GitHub Actions ([source](https://github.com/iDan-Armstrong/portfolio-apps)).
+
 ## What to look at
 
 | Repo | What it shows |
