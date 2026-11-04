@@ -25,8 +25,9 @@ deployed by GitHub Actions ([source](https://github.com/iDan-Armstrong/portfolio
 | **[arcgis-qa-toolbox](https://github.com/iDan-Armstrong/arcgis-qa-toolbox)** | ArcGIS Pro Python Toolbox + geoprocessing service publish script, built on an arcpy-free core so the logic is fully unit-tested in CI, with an AST test that *enforces* the arcpy boundary. |
 | **[agol-ops-notebooks](https://github.com/iDan-Armstrong/agol-ops-notebooks)** | ArcGIS Online hosted notebooks for content audit, scheduled layer refresh (with a shrink guard that protects production from empty upstream extracts), and hosted-layer QA. Notebooks orchestrate; a tested package decides. |
 | **[postgis-enterprise-patterns](https://github.com/iDan-Armstrong/postgis-enterprise-patterns)** | Enterprise spatial database architecture as running code: migrations verified against real PostGIS in CI, behavioral smoke tests, a spatial-index benchmark with real numbers (64× on radius queries at 1M points), four ADRs, and a Terraform RDS module. |
+| **[rds-geodatabase-ops](https://github.com/iDan-Armstrong/rds-geodatabase-ops)** | Running an ArcGIS enterprise geodatabase on Amazon RDS for PostgreSQL: a hardened Terraform module (KMS, forced TLS, IAM auth, RDS-managed secrets, pgaudit, alarms, GovCloud-ready) and an `rdsops` CLI whose checks are tested with moto, so CI proves it without an AWS account. |
 
-A thread runs through all four: **the Esri-facing layer stays thin, the logic underneath
+A thread runs through all five: **the Esri-facing layer stays thin, the logic underneath
 is tested**, and every repo's README explains the architecture decisions, not just the
 usage.
 
